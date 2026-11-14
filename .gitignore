@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# SwiftPM (if added)
+.swiftpm/
+.build/
+
+# Tools / Python
+__pycache__/
+*.pyc
+_work/
+*.log
+*.swp
