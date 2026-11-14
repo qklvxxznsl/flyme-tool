@@ -1,0 +1,2 @@
+# 机型	版本	发布时间	MD5	文件大小	download 入口	最终 firmware-res.flyme.com 地址	失败原因
+# 每次 update_data.py 运行都会重建本文件；没有未解决项时只保留本表头。

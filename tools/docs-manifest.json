@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "repos": [
+    "4-iOS-Swift版",
+    "5-iOS版-Flutter版-备用方案"
+  ],
+  "required_files": [
+    "README.md",
+    "tools/README.md",
+    "tools/docs-manifest.json",
+    "tools/model-aliases.json",
+    "data/manual-urls.txt",
+    "data/unresolved-links.txt",
+    ".github/workflows/update-data.yml"
+  ],
+  "required_snippets": {
+    "README.md": [
+      "官网新链接抓取失败到哪里看",
+      "GitHub Actions 运行日志",
+      "data/unresolved-links.txt",
+      "Job Summary",
+      "本地终端",
+      "客户端只读取 firmware.json",
+      "数据更新脚本"
+    ],
+    "tools/README.md": [
+      "数据更新脚本",
+      "完整链接 | 机型",
+      "unresolved-links.txt",
+      "firmware-res.flyme.com",
+      "download.meizu.com",
+      "只自动抓当前最新版",
+      "check_sort.py",
+      "model-aliases.json"
+    ],
+    "data/manual-urls.txt": [
+      "完整链接 | 机型",
+      "meizu21Pro"
+    ],
+    "data/unresolved-links.txt": [
+      "机型",
+      "版本",
+      "download",
+      "失败原因"
+    ],
+    ".github/workflows/update-data.yml": [
+      "--scrape",
+      "check_sort.py",
+      "check_docs.py",
+      "unresolved-links.txt"
+    ]
+  }
+}

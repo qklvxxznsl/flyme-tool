@@ -1,0 +1,5 @@
+# 每行一条；格式：完整链接 | 机型
+# 共享代号 meizu21Pro 必须写机型；其他机型可省略。
+# 可写标准名或别名；冲突或判断不出会拒绝。
+# 只放以后新出现、还没进 firmware.json 的链接；已有 47 条非官方链接不补。
+# 示例（注释）：https://download.meizu.com/Firmware/Flyme/meizu21Pro/12.7.0.0/cn/20261027025353/7d8a9829/update.zip | meizu21Pro

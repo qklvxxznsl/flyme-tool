@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "phones": {
+    "魅族 21 PRO": {
+      "id": "199",
+      "official_page": "https://www.flyme.com/firmwarelist-199.html",
+      "hardware_id": "6503",
+      "aliases": [
+        "魅族21pro",
+        "魅族 21 pro",
+        "魅族21PRO",
+        "21pro",
+        "21 PRO",
+        "m2481",
+        "meizu21Pro"
+      ]
+    },
+    "魅族 21 PRO Flyme 钛好用版": {
+      "id": "205",
+      "official_page": "https://www.flyme.com/firmwarelist-205.html",
+      "hardware_id": "6507",
+      "aliases": [
+        "魅族21pro钛好用",
+        "魅族21pro钛好用版",
+        "魅族21pro钛好用版本",
+        "魅族 21 PRO 钛好用",
+        "魅族 21 PRO 钛好用版",
+        "魅族 21 PRO 钛好用版本",
+        "21pro钛好用",
+        "21 PRO 钛好用版",
+        "魅族21PRO钛好用版",
+        "meizu21Pro 钛好用",
+        "meizu21Pro 钛好用版"
+      ]
+    }
+  },
+  "rules": {
+    "order": [
+      "21pro + 钛好用",
+      "21pro",
+      "拒绝仅钛好用",
+      "拒绝无匹配",
+      "拒绝同时命中两个机型"
+    ],
+    "note": "不允许模糊匹配，不允许默认第一个"
+  }
+}
